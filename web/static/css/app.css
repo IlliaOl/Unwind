@@ -1,0 +1,33 @@
+fieldset {
+    border: 1px solid #1779ba;
+}
+
+legend {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    margin-left: 1rem;
+}
+
+.flatpickr-input {
+    max-width: 13em;
+}
+
+input:disabled, input[readonly], textarea:disabled, textarea[readonly] {
+    background-color: white;
+}
+
+.header {
+    color: #ffffff;
+    /*padding-bottom: 1em;*/
+    background: #555555;
+    padding: 1em;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+}
+
+.header > h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 4rem;
+}

@@ -1,0 +1,52 @@
+cinema,name,address,time
+MULTIPLEX,Соло: Зоряні війни. Історія,"пр. Генерала Ватутіна, 2Т","15:30,16:20,17:10,18:10,19:00,20:50,21:40,23:30,00:20"
+MULTIPLEX,Красуня на всю голову,"пр. Генерала Ватутіна, 2Т","17:00,18:25,18:35,20:45,23:45"
+MULTIPLEX,Дедпул 2,"пр. Генерала Ватутіна, 2Т","19:10,19:50,20:00,21:35,22:10,22:25,23:00,00:10"
+MULTIPLEX,Ескобар,"пр. Генерала Ватутіна, 2Т","16:15,17:00,19:10,20:40,21:20,22:50,23:30"
+MULTIPLEX,За бортом,"пр. Генерала Ватутіна, 2Т","16:10,18:30,20:50,23:10"
+Аладдін,Мері Шеллі та монстр Франкенштейна,"st. Grishka, 5",20:20
+Аладдін,Зачарований принц,"st. Grishka, 5",17:00
+Аладдін,Земля: Один вражаючий день,"st. Grishka, 5","10:10,19:50"
+Аладдін,За бортом,"st. Grishka, 5",15:50
+Аладдін,Поліцейський пес,"st. Grishka, 5","12:30,16:10,18:00"
+Аладдін,Красуня на всю голову,"st. Grishka, 5","16:30,18:40,20:50"
+Аладдін,Світ Юрського періоду 2,"st. Grishka, 5","10:00,15:30,16:10,18:10,18:50,21:30,23:10"
+Аладдін,Бджілка Майя 2: Кубок меду,"st. Grishka, 5",14:20
+Аладдін,Ескобар,"st. Grishka, 5","18:50,21:00,23:10"
+Аладдін,Дедпул 2,"st. Grishka, 5","18:00,22:40,23:00"
+Аладдін,Соло: Зоряні війни. Історія,"st. Grishka, 5","16:20,19:00,21:40"
+Метрополіс,Зачарований принц,"st. Malinovskogo, 12",12:30
+Метрополіс,Поліцейський пес,"st. Malinovskogo, 12","10:00,14:20,18:20"
+Метрополіс,Дедпул 2,"st. Malinovskogo, 12",22:10
+Метрополіс,Ескобар,"st. Malinovskogo, 12","11:50,17:50,20:10"
+Метрополіс,Соло: Зоряні війни. Історія,"st. Malinovskogo, 12","10:00,12:40"
+Метрополіс,Світ Юрського періоду 2,"st. Malinovskogo, 12","10:00,15:20,16:10,18:50,21:30,22:20"
+Метрополіс,Красуня на всю голову,"st. Malinovskogo, 12","14:00,16:10,20:00"
+06/06,st. Kirillovskaya 134,FREEDOM Event Hall,«Вечірній Квартал»,19.00
+07/06,st. Kirillovskaya 134,FREEDOM Event Hall,Черный Квадрат,19.00
+08/06,st. Kirillovskaya 134,FREEDOM Event Hall,Dinner show,20.00
+09/06,st. Kirillovskaya 134,FREEDOM Event Hall,13 Иллюзий,18.00
+09/06,st. Kirillovskaya 134,FREEDOM Event Hall,Stand Up Клуб,19.00
+10/06,st. Kirillovskaya 134,FREEDOM Event Hall,Improv Live Show,19.00
+14/06,st. Kirillovskaya 134,FREEDOM Event Hall,Черный Квадрат,19.00
+16/06,st. Kirillovskaya 134,FREEDOM Event Hall,Stand Up Клуб,19.00
+19/06,st. Kirillovskaya 134,FREEDOM Event Hall,Павел Игнатьев и Катико Пурцеладзе,20.00
+21/06,st. Kirillovskaya 134,FREEDOM Event Hall,Черный Квадрат,19.00
+22/06,st. Kirillovskaya 134,FREEDOM Event Hall,Stand Up Клуб,19.00
+22/06,st. Kirillovskaya 134,FREEDOM Event Hall,Одна ночь в отеле,20.00
+24/06,st. Kirillovskaya 134,FREEDOM Event Hall,Trio Mandili,19.00
+27/06,st. Kirillovskaya 134,FREEDOM Event Hall,Ансамбль танцю ім. Павла Вірського,19.00
+28/06,st. Kirillovskaya 134,FREEDOM Event Hall,Большой праздничный концерт Олег Скрипка,19.00
+05/07,st. Kirillovskaya 134,FREEDOM Event Hall,Черный Квадрат,19.00
+06/07,st. Kirillovskaya 134,FREEDOM Event Hall,Лига Смеха,20.00
+"st. Prorizna, 17",Molodyy Theatre,нагадай собі згадати!,"06,червня, середа,19:00"
+"st. Prorizna, 17",Molodyy Theatre,Щастя,"06,червня, середа,19:00"
+"st. Prorizna, 17",Molodyy Theatre,Місто Сонця,"07,червня, четвер,19:00"
+"st. Prorizna, 17",Molodyy Theatre,Епос Хижака,"07,червня, четвер,19:00"
+"st. Prorizna, 17",Molodyy Theatre,Кайдаші,"08,червня, пʼятниця,19:00"
+"st. Prorizna, 17",Molodyy Theatre,Куди піти?,"08,червня, пʼятниця,19:00"
+"st. Prorizna, 17",Molodyy Theatre,"Саша, винеси сміття","08,червня, пʼятниця,19:00"
+"st. Prorizna, 17",Molodyy Theatre,Загадкові варіації,"09,червня, субота,19:00"
+"st. Prorizna, 17",Molodyy Theatre,Яма,"09,червня, субота,19:00"
+"st. Prorizna, 17",Molodyy Theatre,Дівочий виноград,"10,червня, неділя,19:00"
+"st. Prorizna, 17",Molodyy Theatre,,

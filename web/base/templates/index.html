@@ -1,0 +1,131 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+<head>
+    <style>
+        .links2 { color: #ffffff; }
+        .links2:active { color: #ffffff; }
+        .links2:visited { color: #ffffff; }
+        .links2:hover { color: #ffffff; }
+
+        .links { color: #565658; }
+        .links:active { color: #565658; }
+        .links:visited { color: #565658; }
+        .links:hover { color: #565658; }
+
+
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 250px;
+            width: 50%;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unwind</title>
+    <link rel="stylesheet" href="static/css/foundation.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/material_blue.css">
+    <link rel="stylesheet" href="static/css/app.css">
+    <link rel="shortcut icon" type="image/x-icon" href="static/u-bahn.svg">
+</head>
+<body>
+<div class="header text-center" style="background: url('static/img/header.jpg') no-repeat center top; background-size: cover">
+    <a class="links2" href="/"><h1>Unwind</h1></a>
+    <a class="links2" href="/"><h4>Пошук розваг у Києві</h4></a>
+</div>
+
+
+<div class="grid-container">
+    <br/>
+
+    <form class="line" action="/" method="GET">
+        <fieldset>
+            <legend>
+                Що Ви шукаєте?
+            </legend>
+            <div class="grid-x grid-padding-x">
+                <div class="large-4 cell">
+                    <input name="movie" type="text" placeholder="Назва"/>
+                </div>
+
+                <div class="large-2 cell">
+                    <select name="place">
+                        {# Эти данные нужно получать из базы #}
+                        <option value="">Всі місця</option>
+                        <option value="MULTIPLEX">Multiplex</option>
+                        <option value="Аладдін">Аладдін</option>
+                        <option value="Метрополіс">Метрополіс</option>
+                    </select>
+                </div>
+
+                <div class="large-2 cell">
+                    <select name="type">
+                        {# Эти тоже#}
+                        <option value="">Всі типи</option>
+                        <option value="movie">Фільм</option>
+                        <option value="concert">Концерт</option>
+                        <option value="spectacle">Спектакль</option>
+                    </select>
+                </div>
+
+                <div class="large-3 cell" id="datetime-input-cell">
+                    <input name="datetime" id="datetime-input"  value="{{ date }}"/>
+                </div>
+
+                <div class="large-1 cell">
+                    <input value="Пошук" type="submit" class="button"/>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+    <br/>
+
+    {% if movies %}
+        <div class="grid-x grid-padding-x">
+            {% for movie_row in movies|batch(3) -%}
+                <div class="large-12 cell">
+                    <div class="grid-x grid-padding-y">
+                        {% for movie in movie_row %}
+                            <div class="large-4 medium-4 small-4 cell">
+                                <a class="links" href="{{ movie.url }}">
+                                    <div class="">
+                                        <img class="center" src="{{ movie.image }}">
+                                        <h4 align="center" style="padding-top: 0.5em">{{ movie.title }}</h4>
+                                        <div align="center">{{ movie.date }}, {{ movie.time }}</div>
+                                        <div align="center">{{ movie.place }}, {{ movie.address }}</div>
+                                        <div align="center">{{ movie.type }}</div>
+                                    </div>
+                                </a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <div class="grid-x grid-padding-x">
+            <div class="large-12 cell">
+                <div class="alert callout">
+                    <h4>Нічого не знайдено</h4>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+
+</div>
+
+
+<script src="static/js/vendor/jquery.js"></script>
+<script src="static/js/vendor/what-input.js"></script>
+<script src="static/js/vendor/foundation.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="https://npmcdn.com/flatpickr/dist/l10n/ru.js"></script>
+<script src="static/js/app.js"></script>
+</body>
+</html>
